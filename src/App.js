@@ -3,7 +3,9 @@ import Converter from './components/Converter';
 
 function App() {
   return (
-    <Converter />
+    <div className="App-container">
+      <Converter />
+    </div>
   );
 }
 

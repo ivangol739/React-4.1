@@ -1,0 +1,39 @@
+.Converter-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 160px;
+}
+
+.Converter-input,
+.Converter-output {
+  font-size: 18px;
+  text-align: center;
+}
+
+.Converter-input {
+  height: 40px;
+
+  border: 1px solid #000000;
+
+  letter-spacing: 0.1rem;
+}
+
+.Converter-input:focus {
+  border-color: transparent;
+  outline: 1px solid rgb(129,183,242);
+}
+
+.Converter-output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  margin-top: 5px;
+  color: #ffffff;
+  background-color: #eeeeee;
+  filter: brightness(50%);
+}
+
+.Converter-output-text {
+  filter: invert(100%) brightness(500%);
+}
